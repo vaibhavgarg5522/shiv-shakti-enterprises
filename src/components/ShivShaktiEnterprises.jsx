@@ -78,7 +78,12 @@ const ShivShaktiEnterprises = () => {
         <div className="text-center sm:text-left text-sm sm:text-base text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
           <p>
             <span className="font-semibold">Email:</span>{" "}
-            deoband_new.wup@fr.dtdc.com
+            <a
+              href="mailto:deoband_new.wup@fr.dtdc.com"
+              className="text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              deoband_new.wup@fr.dtdc.com
+            </a>
           </p>
           <p className="mt-2">
             <span className="font-semibold">Address:</span> Aabkari Road, Near
